@@ -19,5 +19,25 @@
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
-//////////////////////////////////
+// Solutions––––––––––––––––––––––––––––––––––––––
 
+//Task 2
+Console.WriteLine("Input first number, please");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"You first input -> {num1}");
+Console.WriteLine("Input second number, please");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"You second input -> {num2}");
+
+if (num1 > num2)
+{
+    int max = num1;
+    int min = num2;
+}
+else
+{
+    int max = num2;
+    int min = num1;
+}
+Console.WriteLine($"Maximum number -> {max}");
+Console.WriteLine($"Minimum number -> {min}");
