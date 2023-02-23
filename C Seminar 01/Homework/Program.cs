@@ -21,11 +21,12 @@
 
 // Solutions––––––––––––––––––––––––––––––––––––––
 
-//Task 2
-Console.WriteLine("Input first number, please");
+//Task 2:
+Console.Clear();
+Console.WriteLine("Input first number, please:");
 int num1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"You first input -> {num1}");
-Console.WriteLine("Input second number, please");
+Console.WriteLine("Input second number, please:");
 int num2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine($"You second input -> {num2}");
 int max = 0;
@@ -43,3 +44,6 @@ else
 }
 Console.WriteLine($"Maximum number -> {max}");
 Console.WriteLine($"Minimum number -> {min}");
+
+
+//Task 4:
