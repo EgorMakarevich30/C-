@@ -102,19 +102,19 @@
 
 //Task 8:
 //___________________________________________________
-Console.Clear();
-Console.WriteLine("Input a number:");
-int num = Convert.ToInt32(Console.ReadLine());
-int current = 2;
+// Console.Clear();
+// Console.WriteLine("Input a number:");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int current = 2;
 
-if (num > 0)
-{
-    while (current <= num)
-    {
-        Console.Write(current + " ");
-        current += 2;
-    }
-}
-else
-Console.Write("You entered a number less than zero. Try again.");
+// if (num > 0)
+// {
+//     while (current <= num)
+//     {
+//         Console.Write(current + " ");
+//         current += 2;
+//     }
+// }
+// else
+// Console.Write("You entered a number less than zero. Try again.");
 
