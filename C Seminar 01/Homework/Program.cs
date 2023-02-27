@@ -22,28 +22,62 @@
 // Solutions––––––––––––––––––––––––––––––––––––––
 
 //Task 2:
+// Console.Clear();
+// Console.WriteLine("Input first number, please:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"You first input -> {num1}");
+// Console.WriteLine("Input second number, please:");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"You second input -> {num2}");
+// int max = 0;
+// int min = 0;
+
+// if (num1 > num2)
+// {
+//     max = num1;
+//     min = num2;
+// }
+// else
+// {
+//     max = num2;
+//     min = num1;
+// }
+// Console.WriteLine($"Maximum number -> {max}");
+// Console.WriteLine($"Minimum number -> {min}");
+
+
+
+//_________________________________________
+//Task 4:
 Console.Clear();
-Console.WriteLine("Input first number, please:");
+Console.WriteLine("Input first number:");
 int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"You first input -> {num1}");
-Console.WriteLine("Input second number, please:");
+Console.WriteLine("Input second number:");
 int num2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine($"You second input -> {num2}");
+Console.WriteLine("Input third number:");
+int num3 = Convert.ToInt32(Console.ReadLine());
 int max = 0;
-int min = 0;
 
 if (num1 > num2)
 {
-    max = num1;
-    min = num2;
+    if (num1 > num3)
+    {
+        max = num1;
+    }
+    else
+    {
+        max = num3;
+    }
 }
 else
 {
-    max = num2;
-    min = num1;
-}
+    if (num2 > num3)
+    {
+        max = num2;
+    }
+    else
+    {
+        max = num3;
+    }
+}    
 Console.WriteLine($"Maximum number -> {max}");
-Console.WriteLine($"Minimum number -> {min}");
-
-
-//Task 4:
