@@ -49,35 +49,57 @@
 
 //_________________________________________
 //Task 4:
-Console.Clear();
-Console.WriteLine("Input first number:");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input second number:");
-int num2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Input third number:");
-int num3 = Convert.ToInt32(Console.ReadLine());
-int max = 0;
+// Console.Clear();
+// Console.WriteLine("Input first number:");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input second number:");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input third number:");
+// int num3 = Convert.ToInt32(Console.ReadLine());
+// int max = 0;
 
-if (num1 > num2)
-{
-    if (num1 > num3)
-    {
-        max = num1;
-    }
-    else
-    {
-        max = num3;
-    }
-}
-else
-{
-    if (num2 > num3)
-    {
-        max = num2;
-    }
-    else
-    {
-        max = num3;
-    }
-}    
-Console.WriteLine($"Maximum number -> {max}");
+// if (num1 > num2)
+// {
+//     if (num1 > num3)
+//     {
+//         max = num1;
+//     }
+//     else
+//     {
+//         max = num3;
+//     }
+// }
+// else
+// {
+//     if (num2 > num3)
+//     {
+//         max = num2;
+//     }
+//     else
+//     {
+//         max = num3;
+//     }
+// }    
+// Console.WriteLine($"Maximum number -> {max}");
+
+
+//Task 6:
+//__________________________________________________
+Console.Clear();
+ Console.WriteLine("Input a number:");
+ int num = Convert.ToInt32(Console.ReadLine());
+
+ if (num % 2 == 0)
+ {
+    Console.Write("Is the number ");
+    Console.Write(num);
+    Console.Write(" even (is it divisible by two without a remainder)-> ");
+    Console.WriteLine(" -=Yes=-");
+ }
+ else
+ {
+    Console.Write("Is the number ");
+    Console.Write(num);
+    Console.Write(" even (is it divisible by two without a remainder)-> ");
+    Console.WriteLine("-=No=-");
+ }
