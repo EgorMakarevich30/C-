@@ -91,15 +91,9 @@ Console.Clear();
 
  if (num % 2 == 0)
  {
-    Console.Write("Is the number ");
-    Console.Write(num);
-    Console.Write(" even (is it divisible by two without a remainder)-> ");
-    Console.WriteLine(" -=Yes=-");
+    Console.Write($"Is the number {num} even (is it divisible by two without a remainder)-> -=Yes=-");
  }
  else
  {
-    Console.Write("Is the number ");
-    Console.Write(num);
-    Console.Write(" even (is it divisible by two without a remainder)-> ");
-    Console.WriteLine("-=No=-");
+    Console.Write($"Is the number {num} even (is it divisible by two without a remainder)-> -=No=-");
  }
