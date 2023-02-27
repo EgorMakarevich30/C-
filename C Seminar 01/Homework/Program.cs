@@ -85,15 +85,36 @@
 
 //Task 6:
 //__________________________________________________
-Console.Clear();
- Console.WriteLine("Input a number:");
- int num = Convert.ToInt32(Console.ReadLine());
+// Console.Clear();
+//  Console.WriteLine("Input a number:");
+//  int num = Convert.ToInt32(Console.ReadLine());
 
- if (num % 2 == 0)
- {
-    Console.Write($"Is the number {num} even (is it divisible by two without a remainder)-> -=Yes=-");
- }
- else
- {
-    Console.Write($"Is the number {num} even (is it divisible by two without a remainder)-> -=No=-");
- }
+//  if (num % 2 == 0)
+//  {
+//     Console.Write($"Is the number {num} even (is it divisible by two without a remainder)-> -=Yes=-");
+//  }
+//  else
+//  {
+//     Console.Write($"Is the number {num} even (is it divisible by two without a remainder)-> -=No=-");
+//  }
+
+
+
+//Task 8:
+//___________________________________________________
+Console.Clear();
+Console.WriteLine("Input a number:");
+int num = Convert.ToInt32(Console.ReadLine());
+int current = 2;
+
+if (num > 0)
+{
+    while (current <= num)
+    {
+        Console.Write(current + " ");
+        current += 2;
+    }
+}
+else
+Console.Write("You entered a number less than zero. Try again.");
+
