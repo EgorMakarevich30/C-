@@ -107,8 +107,8 @@
 // }
 
 // Console.WriteLine("Enter a number: ");
-// int num = Convert.ToInt32(Console.ReadLine());
-// Quad(num);
+// int number = Convert.ToInt32(Console.ReadLine());
+// Quad(number);
 
 
 
