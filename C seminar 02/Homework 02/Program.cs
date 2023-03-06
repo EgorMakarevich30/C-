@@ -83,5 +83,35 @@
 // }
 
 
+// int CutTails(int num)
+// {
+//     int result = num % 100;
+//     int result2 = result / 10;
+
+//     if (num > -1000 && num < -99)
+//     {
+//         return result2 * (-1);
+//     }
+//     else if (num > 99 && num < 1000)
+//     {
+//         return result2;
+//     }
+//     else
+//     {
+//         return -1;
+//     }
+// }
+
+// Console.WriteLine("Enter the three-digit number");
+// int number = Convert.ToInt32(Console.ReadLine());
+// if (CutTails(number) > 0)
+// {
+//     Console.WriteLine(CutTails(number));
+// }
+// else
+// {
+//     Console.WriteLine("Invalid number");
+// }
+
 
 
