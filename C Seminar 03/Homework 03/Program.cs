@@ -16,35 +16,53 @@
 
 
 // Task 19________________________________________________________________
-Console.Clear();
-void PolindromeNum(int num)
-{
-    string inputStr = Convert.ToString(num);
-    char[] inputarray = inputStr.ToCharArray();
-    Array.Reverse(inputarray);
-    string output = new string(inputarray);
-    // Console.WriteLine(output);
-    if (inputStr == output)
-    {
-        Console.WriteLine($"Number {num} is polindrome");
-    }
-    else
-    {
-        Console.WriteLine($"Number {num} not polindrome");
-    }
-}
+// Console.Clear();
+// void PolindromeNum(int num)
+// {
+//     string inputStr = Convert.ToString(num);
+//     char[] inputarray = inputStr.ToCharArray();
+//     Array.Reverse(inputarray);
+//     string output = new string(inputarray);
+//     // Console.WriteLine(output);
+//     if (inputStr == output)
+//     {
+//         Console.WriteLine($"Number {num} is polindrome");
+//     }
+//     else
+//     {
+//         Console.WriteLine($"Number {num} not polindrome");
+//     }
+// }
 
-Console.Write("Enter a number : ");
-int input = Convert.ToInt32(Console.ReadLine());
-if (input >= 10000 && input < 100000)
-{
-    PolindromeNum(input);
-}
-else
-{
-    Console.WriteLine("You entered a non-five-digit number!!!");
-}
+// Console.Write("Enter a number : ");
+// int input = Convert.ToInt32(Console.ReadLine());
+// if (input >= 10000 && input < 100000)
+// {
+//     PolindromeNum(input);
+// }
+// else
+// {
+//     Console.WriteLine("You entered a non-five-digit number!!!");
+// }
 
+
+// Task 21________________________________________________________________
+// Console.Clear();
+// double GenerateCoor(
+// )
+// {
+//     Console.WriteLine("Enter the coordinates of the first point x, y, z in order:");
+//     double xA = Convert.ToDouble(Console.ReadLine());
+//     double yA = Convert.ToDouble(Console.ReadLine());
+//     double zA = Convert.ToDouble(Console.ReadLine());
+//     Console.WriteLine("Enter the coordinates of the second point x, y, z in order:");
+//     double xB = Convert.ToDouble(Console.ReadLine());
+//     double yB = Convert.ToDouble(Console.ReadLine());
+//     double zB = Convert.ToDouble(Console.ReadLine());
+//     return Math.Sqrt(Math.Pow(xA - xB, 2) + Math.Pow(yA - yB, 2) + Math.Pow(zA - zB, 2));
+// }
+
+// Console.WriteLine($"Distance between two points: {GenerateCoor()} units.");
 
 
 // Task 23________________________________________________________________
