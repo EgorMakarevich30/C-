@@ -48,8 +48,7 @@
 
 // Task 21________________________________________________________________
 // Console.Clear();
-// double GenerateCoor(
-// )
+// double GenerateCoor()
 // {
 //     Console.WriteLine("Enter the coordinates of the first point x, y, z in order:");
 //     double xA = Convert.ToDouble(Console.ReadLine());
