@@ -33,9 +33,9 @@
 
 // START // ———————————————————————————————————————————————————————————————————————— 3 variant
 
-// int NumToPower(int numA, int numB)
+// double NumToPower(int numA, int numB)
 // {
-//     int result = 1;
+//     double result = 1;
 //     for (int i = 1; i <= numB; i++)
 //     {
 //         result *= numA;
@@ -68,7 +68,7 @@
 // int SumDigit(int num)
 // {
 //     int sum = 0;
-//     for (int i = 1; num > 1; i++)
+//     for (int i = 1; num >= 1; i++)
 //     {
 //         sum = sum + num % 10;
 //         num = num / 10;
