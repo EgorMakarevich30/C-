@@ -65,20 +65,20 @@
 // 9012 -> 12
 // START // ———————————————————————————————————————————————————————————————————————— 
 
-int SumDigit(int num)
-{
-    int sum = 0;
-    for (int i = 1; num > 0; i++)
-    {
-        sum = sum + num % 10;
-        num = num / 10;
-    }
-    return sum;
-}
+// int SumDigit(int num)
+// {
+//     int sum = 0;
+//     for (int i = 1; num > 0; i++)
+//     {
+//         sum = sum + num % 10;
+//         num = num / 10;
+//     }
+//     return sum;
+// }
 
-Console.Write("Enter the number: ");
-int number  = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(SumDigit(number));
+// Console.Write("Enter the number: ");
+// int number  = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(SumDigit(number));
 // ————————————————————————————————————————————————————————————————————————// END //
 
 
