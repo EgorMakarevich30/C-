@@ -54,13 +54,13 @@
 // [-4, -6, 89, 6] -> 0
 
 // START // ———————————————————————————————————————————————————————————————————————— 
-
+// Console.Clear();
 // int[] CreateRandomArray(int count, int start, int end)
 // {
 //     int[] array = new int[count];
 //     for (int i = 0; i < count; i++)
 //     {
-//         array[i] = new Random().Next(start, end + 1);
+//         array[i] = new Random().Next(start, end);
 //     }
 //     return array;
 // }
@@ -90,10 +90,9 @@
 //     return sum;
 // }
 
-
-// int sizeOfArray = new Random().Next(10, 21);
+// int sizeOfArray = new Random().Next(10, 24);
 // int startArray = new Random().Next(-100, 0);
-// int endArray = new Random().Next(0, 101);
+// int endArray = new Random().Next(0, 100);
 
 
 
@@ -102,7 +101,6 @@
 // ShowArray(arrayRand);
 // int sumOdd = SumOddElementsOfArray(arrayRand);
 // Console.WriteLine($"Sum elements of array with odd positions = {sumOdd}");
-
 // ————————————————————————————————————————————————————————————————————————// END //
 
 
