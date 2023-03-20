@@ -2,12 +2,12 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 3
 
-Console.Clear();
-int Request(string message)
-{
-    Console.WriteLine(message);
-    return Convert.ToInt32(Console.ReadLine());
-}
+// Console.Clear();
+// int Request(string message)
+// {
+//     Console.WriteLine(message);
+//     return Convert.ToInt32(Console.ReadLine());
+// }
 
 // В данном методе не хватает проверки на ввод пустого значения или нечислового символа. Работает как винда.
 // int[] FillArray(int size)
@@ -21,37 +21,37 @@ int Request(string message)
 //     return array;
 // }
 
-int[] FillArray(int size)
-{
-    int[] array = new int[size];
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write($"Enter number {i + 1}: ");
+// int[] FillArray(int size)
+// {
+//     int[] array = new int[size];
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         Console.Write($"Enter number {i + 1}: ");
 
-        if (!int.TryParse(Console.ReadLine(), out int input)) // Check integer and return to input
-        {
-            Console.WriteLine("You must enter a integer. Please try again.");
-            i--;
-            continue;
-        }
+//         if (!int.TryParse(Console.ReadLine(), out int input)) // Check integer and return to input
+//         {
+//             Console.WriteLine("You must enter a integer. Please try again.");
+//             i--;
+//             continue;
+//         }
 
-        array[i] = input;
-    }
-    return array;
-}
+//         array[i] = input;
+//     }
+//     return array;
+// }
 
-int CountOfPositiveNumbers(int[] array)
-{
-    int count = 0;
-    for (int i = 0; i < array.Length; i++)
-    {
-        if (array[i] > 0)
-        {
-            count++;
-        }
-    }
-    return count;
-}
+// int CountOfPositiveNumbers(int[] array)
+// {
+//     int count = 0;
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (array[i] > 0)
+//         {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
 
 // int sizeArray = Request("Enter count of numbers: ");
 // int[] array = FillArray(sizeArray);
