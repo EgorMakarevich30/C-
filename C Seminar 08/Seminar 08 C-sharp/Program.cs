@@ -109,34 +109,34 @@
 //     return array;
 // }
 
-// int[,] Create2DRandomArray (int rows, int columns, int minValue, int maxValue)
-// {
-//     int[,] myArray = new int[rows, columns];
-//     for(int i = 0; i < rows;i++)
-//     {
-//         for(int j = 0; j < columns;j++)
-//         {
-//             myArray[i,j] = new Random().Next(minValue, maxValue + 1);
-//         }
-//     }
-//     return myArray;
-// }
+int[,] Create2DRandomArray (int rows, int columns, int minValue, int maxValue)
+{
+    int[,] myArray = new int[rows, columns];
+    for(int i = 0; i < rows;i++)
+    {
+        for(int j = 0; j < columns;j++)
+        {
+            myArray[i,j] = new Random().Next(minValue, maxValue + 1);
+        }
+    }
+    return myArray;
+}
 // // 1 2 3
 // // 4 5 6
 // // 7 8 9
 
-// void Show2DArray (int[,] array)
-// {
-//     for(int i = 0; i < array.GetLength(0);i++)
-//     {
-//         for(int j = 0; j < array.GetLength(1);j++)
-//         {
-//             Console.Write(array[i,j] + " ");
-//         }
-//         Console.WriteLine();
-//     }
-//     Console.WriteLine();
-// }
+void Show2DArray (int[,] array)
+{
+    for(int i = 0; i < array.GetLength(0);i++)
+    {
+        for(int j = 0; j < array.GetLength(1);j++)
+        {
+            Console.Write(array[i,j] + " ");
+        }
+        Console.WriteLine();
+    }
+    Console.WriteLine();
+}
 
 // Console.Write("Введите количество строк ");
 // int rows = Convert.ToInt32(Console.ReadLine());
@@ -194,5 +194,6 @@ int[,] DelMinRowAndColumn (int [,] array)
     return array;
 }
 
+int[,] myArray = Create2DRandomArray(5,5,0,9);
 DelMinRowAndColumn(myArray);
 Show2DArray(myArray);
